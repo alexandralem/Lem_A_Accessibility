@@ -1,0 +1,22 @@
+{
+  "name": "lem_a_accessibility",
+  "version": "1.0.0",
+  "description": "Video and Audio Player with accessibility features",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandralem/Lem_A_Accessibility.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandralem/Lem_A_Accessibility/issues"
+  },
+  "homepage": "https://github.com/alexandralem/Lem_A_Accessibility#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
