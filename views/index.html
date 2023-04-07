@@ -4,11 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/ableplayer.min.css" type="text/css"/>
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>The Audio and Video podcast</title>
     <h1 class="hidden">The Audio and Video player</h1>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <div class="head">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Audios</a></li>
+                        <li><a href="">Videos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="content">
+           <div class="eplist">
+            <div>
+                <h2>Episodes</h2>
+            </div>
+            <div class="episode">
+                <h3>Episode 1</h3>
+            </div>
+            <div class="episode">
+                <h3>Episode 2</h3>
+            </div>
+            <div class="episode">
+                <h3>Episode 3</h3>
+            </div>
+            <div class="episode">
+                <h3>Episode 4</h3>
+            </div>
+        </div>
+        <div class="container">
+           <video id="video1" data-able-player preload="auto" width="480" height="360" poster="path_to_image.jpg">
+            <source type="video/mp4" src="images/productivity.mp4" data-desc-src="path_to_described_video.mp4"/>
+            <track kind="captions" src="productivity.vtt"/>
+            </video> 
+        </div> 
+        </section>
+        
+    </main>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="build/ableplayer.min.js"></script>
 </body>
 </html>

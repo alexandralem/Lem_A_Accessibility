@@ -1,3 +1,27 @@
 .hidden {
     display: none;
 }
+
+.head {
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+    padding: 1.5em 2em;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin-left: 2em;
+}
+
+.content {
+    display: flex;
+}
