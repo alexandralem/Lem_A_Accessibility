@@ -25,3 +25,51 @@ ul li {
 .content {
     display: flex;
 }
+
+.eplist {
+    margin: 1em;
+}
+
+.heading {
+    color: #fff;
+    background-color: #000;
+    padding: 0.5em 1em;
+}
+
+.episode {
+    border: solid 1px #000;
+    padding: 0.5em 1em;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.title {
+    font-size: 2em;
+    margin: 1em auto 1em 0;
+}
+
+.summary {
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+.container {
+    margin: 0 2em;
+}
+
+.parameters {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.transcript {
+    line-height: 1.5em;
+    margin-top: 3em; 
+}
+
+.logo h2 {
+    color: #fff;
+}
